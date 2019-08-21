@@ -28,7 +28,7 @@ if($_GET["action"] == 'delete')
 	$data = $api_object->delete($_GET["id"]);
 }
 
-echo json_encode($data);
+echo json_encode($data); // this will convert data into JSON string and send it to API request
 
 
 ?>
